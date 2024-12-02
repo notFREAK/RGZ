@@ -57,7 +57,7 @@ public class SettingsWindow extends JFrame {
         contentPanel.add(fuelConsumptionField);
 
         JButton manualButton = new JButton("Вручную");
-        JButton maxDistanceButton = new JButton("Наибольшее удаление при полёте");
+        JButton maxDistanceButton = new JButton("Строго вертикальный взлёт");
         JButton stableOrbitButton = new JButton("Стабильная орбита");
 
         contentPanel.add(new JLabel("Режим автопилота:"));
