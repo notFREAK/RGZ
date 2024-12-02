@@ -182,6 +182,7 @@ public class RocketModel {
             running = false;
             return;
         }
+        System.out.println(speed);
     }
 
     public void addObserver(RocketObserver observer) {
